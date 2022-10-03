@@ -13,8 +13,8 @@ def add_2():
     last = input("Введите Фамилию ")
     phon_num = input("Введите номер телефона ")
    
-    cont_add =(first + " " + last + " " + phon_num )
-    mybook = open('myphonebook.txt','a', encoding='utf-8')
+    cont_add =(first + " " + last + "        " + phon_num )
+    mybook = open('phone book\myphonebook.txt','a', encoding='utf-8')
     mybook.write(cont_add + "\n")
     print(f"Контактные данные:\n{cont_add}\nдобавлены в телефонную книгу")
 
